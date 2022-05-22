@@ -7,6 +7,8 @@ namespace AuthDemoApi.Helper
 {
     public static class Common
     {
+        #region ===[ Public Methods ]==============================================================
+
         /// <summary>
         /// Generate Jwt Token
         /// </summary>
@@ -29,5 +31,7 @@ namespace AuthDemoApi.Helper
 
             return tokenHandler.WriteToken(token);
         }
+
+        #endregion
     }
 }
