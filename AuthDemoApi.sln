@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemoApi", "AuthDemoApi\AuthDemoApi.csproj", "{9A706BE3-DF36-42F4-B4F9-A24FA92DDE1E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemo.Application", "AuthDemo.Application\AuthDemo.Application.csproj", "{F2A0BA95-9531-4695-B9A6-DB08931A4748}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemo.Core", "AuthDemo.Core\AuthDemo.Core.csproj", "{4AF7F8AB-32E3-4312-B600-4FB7060115A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemo.Infrastructure", "AuthDemo.Infrastructure\AuthDemo.Infrastructure.csproj", "{3D4B4C46-5B51-46BC-992F-D9D007AF27CD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemoApi", "AuthDemoApi\AuthDemoApi.csproj", "{9A706BE3-DF36-42F4-B4F9-A24FA92DDE1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
