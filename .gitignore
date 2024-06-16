@@ -16,3 +16,5 @@
 /.vs/AuthDemoApi/v17
 /AuthDemoApi/AuthDemoApi.csproj.user
 /.vs/AuthDemoApi
+/AuthDemoApi/bin/Debug/net7.0
+/.gitignore
