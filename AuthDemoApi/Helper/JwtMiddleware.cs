@@ -58,9 +58,10 @@ namespace AuthDemoApi.Helper
                 }, out SecurityToken validatedToken);
 
                 var jwtToken = (JwtSecurityToken)validatedToken;
+
                 var userId = int.Parse(jwtToken.Claims.First(x => x.Type == "id").Value);
 
-                // attach user to context on successful jwt validation
+                // attach user to context on successful Jwt validation
                 context.Items["User"] = unitOfWork.Users.GetById(userId).Result;
             }
             catch
