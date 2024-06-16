@@ -14,7 +14,7 @@ namespace AuthDemoApi.Helper
             if (user == null)
             {
                 // not logged in
-                context.Result = new JsonResult(new { message = "Unauthorized" }) { StatusCode = StatusCodes.Status401Unauthorized };
+                context.Result = new JsonResult(new { message = "Unauthorized Access !!!" }) { StatusCode = StatusCodes.Status401Unauthorized };
             }
         }
     }

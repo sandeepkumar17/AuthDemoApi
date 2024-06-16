@@ -41,6 +41,7 @@ namespace AuthDemoApi.Controllers
                 return BadRequest(new { message = "Username or password is incorrect" });
 
             var token = Common.GenerateJwtToken(user.Id, _appSettings);
+
             var response = new AuthenticateResponse
             {
                 Id = user.Id,
