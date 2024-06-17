@@ -2,19 +2,17 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/AuthDemo.Application/bin/Debug/net6.0
-/AuthDemo.Application/obj/Debug/net6.0
-/AuthDemo.Application/obj
-/AuthDemo.Core/bin/Debug/net6.0
-/AuthDemo.Core/obj
-/AuthDemo.Infrastructure/bin/Debug/net6.0
-/AuthDemo.Infrastructure/obj/Debug/net6.0
-/AuthDemo.Infrastructure/obj
-/AuthDemoApi/bin/Debug/net6.0
-/AuthDemoApi/obj
+/.gitignore
 /.vs/AuthDemoApi/DesignTimeBuild
 /.vs/AuthDemoApi/v17
 /AuthDemoApi/AuthDemoApi.csproj.user
 /.vs/AuthDemoApi
-/AuthDemoApi/bin/Debug/net7.0
-/.gitignore
+/AuthDemoApi/bin/
+/AuthDemo.Application/bin
+/AuthDemo.Application/obj
+/AuthDemo.Core/bin
+/AuthDemo.Core/obj
+/AuthDemo.Infrastructure/bin
+/AuthDemo.Infrastructure/obj
+/AuthDemoApi/bin
+/AuthDemoApi/obj
